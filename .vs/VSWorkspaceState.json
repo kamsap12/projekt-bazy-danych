@@ -1,7 +1,11 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\LibrarySystem",
+    "\\LibrarySystem\\Data",
+    "\\LibrarySystem\\Models",
+    "\\LibrarySystem\\Properties"
   ],
-  "SelectedNode": "\\C:\\Users\\kamil\\source\\repos\\projekt-bazy-danych",
+  "SelectedNode": "\\LibrarySystem\\Properties\\launchSettings.json",
   "PreviewInSolutionExplorer": false
 }
