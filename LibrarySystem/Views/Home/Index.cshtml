@@ -1,8 +1,38 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Start";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div class="text-center py-5">
+    <h1 class="display-4 fw-bold">System Biblioteczny</h1>
+    <p class="fs-5 text-muted">Kompleksowe zarządzanie zasobami i użytkownikami.</p>
+
+    <div class="row g-4 py-5">
+        <div class="col-md-4">
+            <div class="card h-100 border-0 shadow-sm">
+                <div class="card-body">
+                    <h5 class="card-title fw-bold">Książki</h5>
+                    <p class="card-text text-secondary">Zasoby i publikacje.</p>
+                    <a href="/Books" class="btn btn-primary w-100">Otwórz</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card h-100 border-0 shadow-sm">
+                <div class="card-body">
+                    <h5 class="card-title fw-bold">Autorzy</h5>
+                    <p class="card-text text-secondary">Baza twórców.</p>
+                    <a href="/Authors" class="btn btn-dark w-100">Otwórz</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card h-100 border-0 shadow-sm">
+                <div class="card-body">
+                    <h5 class="card-title fw-bold">Kategorie</h5>
+                    <p class="card-text text-secondary">Gatunki literackie.</p>
+                    <a href="/Categories" class="btn btn-outline-dark w-100">Otwórz</a>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
